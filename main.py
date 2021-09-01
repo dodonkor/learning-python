@@ -97,21 +97,54 @@
 # print(f"Difference = {difference}")
 
 # DICTIONARIES
-person = {
-    "name": "Derrick",
-    "age": 29,
-    "address": "USA"
-}
+# person = {
+#     "name": "Derrick",
+#     "age": 29,
+#     "address": "USA"
+# }
+#
+# print(person["name"])
+# print(person["age"])
+# print(person["address"])
+# print(person.keys())
+# print(person.values())
+# # print(person.clear())
+# person["age"] = 100
+# print(person)
 
-print(person["name"])
-print(person["age"])
-print(person["address"])
-print(person.keys())
-print(person.values())
-# print(person.clear())
-person["age"] = 100
-print(person)
+# LOOPS
+# names = ["derr", "gth", "hasd", "opk"]
 
+# For loop
+# for name in names:
+#     print(name)
 
+# for key in person:
+#     print(f"key:{key} value:{person[key]}")
+#
+# for key, value in person.items():
+#     print(f"key:{key} value:{value}")
+
+# EXERCISE
+# numbers = [1, 3, 5, 6, 7, 9]
+# total = 0
+# for number in numbers:
+#     total += number
+#
+# print(f"Result = {total}")
+
+# number = 0
+#
+# # while number < 10:
+# #     if number == 5:
+# #         break
+# #     number += 1
+# #     print(number)
+#
+# while number < 10:
+#     number += 1
+#     if number < 5:
+#         continue
+#     print(number)
 
 
